@@ -1,6 +1,6 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-#include "shader.h"
+#include "../Header/shader.h"
 #include <iostream>
 #include <cmath>
 
@@ -44,7 +44,7 @@ int main()
 		return -1;
 	}
 
-	Shader ourShader("vertex_color.vs", "vertex_color.fs");
+	Shader ourShader(".\\Shader\\vertex_color.vs", ".\\Shader\\vertex_color.fs");
 	// set up vertex data (and buffer(s)) and configure vertex attributes
 	// ------------------------------------------------------------------
 	float vertices[] = {

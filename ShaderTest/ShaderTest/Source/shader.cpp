@@ -1,4 +1,4 @@
-#include "shader.h"
+#include "../Header/shader.h"
 
 void checkCompileErrors(unsigned int shader, std::string type);
 // constructor generates the shader on the fly
