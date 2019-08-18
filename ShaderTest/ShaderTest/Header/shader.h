@@ -1,7 +1,7 @@
 #ifndef SHADER_H
 #define SHADER_H
 
-#include <glad/glad.h> // 包含glad来获取所有的必须OpenGL头文件
+#include <glad/glad.h> // include glad to get all the required OpenGL headers
 
 #include <string>
 #include <fstream>
@@ -12,14 +12,14 @@
 class Shader
 {
 public:
-	// 程序ID
+	// the program ID
 	unsigned int ID;
 
-	// 构造器读取并构建着色器
+	// constructor reads and builds the shader
 	Shader(const GLchar* vertexPath, const GLchar* fragmentPath);
-	// 使用/激活程序
+	// use/activate the shader
 	void use();
-	// uniform工具函数
+	// utility uniform functions
 	void setBool(const std::string &name, bool value) const;
 	void setInt(const std::string &name, int value) const;
 	void setFloat(const std::string &name, float value) const;
