@@ -21,10 +21,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Shader\vertex_color.fs">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </None>
     <None Include="Shader\vertex_color.vs">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
