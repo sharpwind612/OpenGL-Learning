@@ -70,8 +70,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>I:\OpenGL Learning\Resource\Include;$(IncludePath)</IncludePath>
-    <LibraryPath>I:\OpenGL Learning\Resource\Libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\OpenGL Learing\OpenGL-Template\Resource\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\OpenGL Learing\OpenGL-Template\Resource\Libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -123,6 +123,14 @@
   <ItemGroup>
     <ClCompile Include="glad.c" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="shader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertex_color.fs" />
+    <None Include="vertex_color.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
