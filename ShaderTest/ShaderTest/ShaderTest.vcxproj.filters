@@ -15,11 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header\shader.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Shader\vertex_color.fs">
       <Filter>资源文件</Filter>
     </None>
@@ -32,9 +27,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Source\main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\shader.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

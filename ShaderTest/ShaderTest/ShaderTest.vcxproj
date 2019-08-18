@@ -19,16 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header\shader.h" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Shader\vertex_color.fs" />
     <None Include="Shader\vertex_color.vs" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\glad.c" />
     <ClCompile Include="Source\main.cpp" />
-    <ClCompile Include="Source\shader.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

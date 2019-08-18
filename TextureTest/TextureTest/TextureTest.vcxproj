@@ -125,13 +125,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Header\shader.h" />
-    <ClInclude Include="Header\stb_image.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="Source\glad.c" />
     <ClCompile Include="Source\main.cpp" />
-    <ClCompile Include="Source\shader.cpp" />
     <ClCompile Include="Source\stb_image.cpp" />
   </ItemGroup>
   <ItemGroup>

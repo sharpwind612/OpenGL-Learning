@@ -15,21 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header\shader.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Header\stb_image.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="Source\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Source\main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\shader.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Source\stb_image.cpp">
