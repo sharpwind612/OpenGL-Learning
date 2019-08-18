@@ -131,8 +131,8 @@
     <ClCompile Include="Source\stb_image.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Shader\vertex_color.fs" />
-    <None Include="Shader\vertex_color.vs" />
+    <None Include="Shader\texture.fs" />
+    <None Include="Shader\texture.vs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Texture\container.jpg" />
