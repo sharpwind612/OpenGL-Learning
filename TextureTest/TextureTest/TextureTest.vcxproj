@@ -135,6 +135,7 @@
     <None Include="Shader\texture.vs" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Texture\awesomeface.png" />
     <Image Include="Texture\container.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
