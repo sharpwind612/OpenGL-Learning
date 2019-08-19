@@ -82,8 +82,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>I:\OpenGL Learning\OpenGL-Template\Resource\Include;$(IncludePath)</IncludePath>
-    <LibraryPath>I:\OpenGL Learning\OpenGL-Template\Resource\Libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>I:\OpenGL Learning\OpenGL-Learning\Resource\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>I:\OpenGL Learning\OpenGL-Learning\Resource\Libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
