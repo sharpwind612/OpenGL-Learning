@@ -1,5 +1,5 @@
 # OpenGL-Learning
-A basic project for OpenGL practice
+A basic project for OpenGL practice 
 
 Please follow the next steps before run any project in the Visual Studio:
 *  Make sure your active platform is win32/x86.
